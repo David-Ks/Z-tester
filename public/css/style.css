@@ -1,0 +1,308 @@
+html body {
+	font-family: "Hoefler Text", Garamond, Times, serif;
+}
+
+a.dis-1 {
+	font-size: 4rem;
+}
+
+a.dis-2 {
+	font-size: 3rem;
+}
+
+a.dis-3 {
+	font-size: 2.4rem;
+}
+
+a.dis-4 {
+	font-size: 1.5rem;
+}
+
+a.navbtn:hover {
+	text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px black;
+}
+
+a.navbtn:active {
+	text-shadow: 1px 1px 2px black, 0 0 35px white, 0 0 5px black;
+}
+
+div.first-div {
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 13px black;
+}
+
+div.content-div {
+	margin-top: 16px;
+}
+
+div.last-content-div {
+	padding: 10px;
+	box-shadow: 2px 2px 13px black;
+	border-radius: 10px;
+	margin: 20px 10px 0px 10px;
+}
+
+div.last-content-div-btn {
+	padding: 25px;
+	box-shadow: 2px 2px 13px black;
+	border-radius: 10px;
+	margin: 20px 0px 0px 0px;
+}
+
+h1.h1 { 
+	text-align: left;
+	color: #e6e6e6;
+	text-shadow: 1px 1px 2px black, 0 0 10px white, 0 0 5px black;
+}
+
+h2.h2 { 
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 6px white, 0 0 5px black;
+}
+
+h3.h3 { 
+	text-align: center;
+	text-shadow: 1px 1px 2px black, 0 0 6px white, 0 0 5px black;
+}
+
+button.menu-btn {
+	margin-top: 5px;
+	/*box-shadow: 2px 2px 13px white;*/
+}
+
+div.second-div {
+	margin-top: 20px;
+	padding: 25px;
+	border-radius: 10px;
+	box-shadow: 2px 2px 13px black;
+}
+
+
+figure.hel-txt {
+	font-size: 20px;
+	color: white;
+	text-shadow: 1px 1px 2px white, 1 1 1px white, 0 0 5px white;
+}
+
+.ml-1 {
+	margin-left: 10px;
+}
+
+div.create-div {
+	margin-top: 30px;
+}
+
+div.form-div {
+	padding: 20px;
+	border-radius: 10px;
+	min-height: 600px;
+}
+
+label.sz {
+	font-size: 1.5rem;
+}
+
+label.sz-answer {
+	font-size: 1.3rem;
+}
+
+button.next-btn {
+	margin-top: 5%;
+	font-size: 20px;
+	box-shadow: 2px 2px 13px black;
+}
+
+button.btn-widht {
+	width: 80px;
+}
+
+div.next-btn-div {
+	text-align: center;
+}
+
+div.answers-div {
+	margin: 30px 0 30px 0;
+}
+
+div.answer-content-div {
+	padding: 20px;
+	min-height: 200px;
+	border-radius: 10px;
+}
+
+button.more-btn {
+	box-shadow: 2px 2px 13px black;
+	font-size: 1.5rem;
+}
+
+div.center-div {
+	text-align: center;
+}
+
+button.new-btn {
+	display: none;
+}
+
+button.delete-btn {
+	font-size: 1.2rem;
+	box-shadow: 2px 2px 13px red;
+}
+
+button.create-btn {
+	display: none;
+}
+
+input.inp-answer {
+	width: 80%;
+	margin-left: 10px;
+}
+
+div.answers-group-div {
+	display: flex;
+	margin-top: 10px;
+	justify-content: flex-end;
+}
+
+input.quest-answer {
+	box-shadow: 0px 0px 1px #20B2AA;
+	margin-bottom: 5px;
+}
+
+input.true-answer {
+	box-shadow: 0px 0px 1px green;
+	margin-bottom: 5px;
+}
+
+input.false-answer {
+	box-shadow: 0px 1px 1px red;
+	margin-bottom: 2px;
+}
+
+span.space {
+	margin-right: 10px;
+}
+
+div.hide-div {
+	display: none;
+}
+
+div.sz-switch {
+	font-size: 1.5rem;
+}
+
+div.session-div {
+	width: 50%;
+	padding: 20px 0px 20px 0px;
+	margin-left: 25%;
+	color: white;
+	text-shadow: 1px 1px 20px white;
+}
+
+div.search-div {
+	padding: 15px 20px 15px 20px;
+	border-radius: 8px;
+	box-shadow: 2px 2px 13px black;
+	width: 50%;
+}
+
+button a{
+	text-decoration: none;
+}
+
+span.sz {
+	font-size: 2.0rem;
+}
+
+div.all-tests-div {
+	padding: 10px 0 10px 0;
+	width: 80%;
+	margin-left: 10%;
+	border-radius: 10px;
+	box-shadow: 2px 2px 13px black;
+}
+
+div.block {
+	border-radius: 10px;
+	box-shadow: 2px 2px 13px black;
+	padding: 10px 10px 10px 10px;
+}
+
+div.faq-div {
+	box-shadow: 2px 2px 13px black;
+	padding-top: 10px;
+}
+
+
+@media only screen and (min-device-width: 800px) {
+	h4.al-right {
+		text-align: right;
+		margin-right: 5px;
+		font-size: 1.2rem;
+		float: right;
+	}
+}
+
+span.content-sz {
+	font-size: 1.4rem;
+}
+
+div.content-sz {
+	font-size: 1.5rem;
+}
+
+div.pass-div {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+div.pass-div-center {
+	text-align: center;
+	padding: 20%;
+}
+
+input.inp-ft {
+	font-size: 1.5rem;
+}
+
+div.test-hidden {
+	display: none;
+}
+
+label.title-sz {
+	font-size: 2rem;
+}
+
+div.error-div-f {
+	display: none;
+	float: right; 
+	width: 90%; 
+	height: 60px;
+}
+
+div.error-div-fx {
+	display: none;
+	min-height: 60px;
+}
+
+div.chat-div {
+	display: flex;
+}
+
+textarea.resize-none {
+	resize: none;
+}
+
+div.d-sz {
+	font-size: 1.4rem;
+}
+
+input.chat-inp {
+	margin-right: 5px;
+}
+
+div.about {
+	font-size: 1.4rem;
+	padding: 20px;
+}

@@ -1,0 +1,39 @@
+@media (max-device-width: 940px) {
+  div.for-ph-crausel {
+    margin-top: 20px;
+    width: 100%;
+  }
+
+  h4.al-right {
+    margin-right: 5px;
+    font-size: 1.2rem;
+  }
+
+  div.search-div {
+    width: 100%;
+    margin: 12px;
+  }
+
+  nav.faz-nav {
+    min-height: 70px;
+    padding: 15px 15px;
+  }
+
+  h1, h2, h3, h4, span, input, textarea {
+    font-size: 3rem !important;
+  }
+
+  button {
+    height: 100px !important;
+    width: 120px !important;
+  }
+
+  div.right {
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+
+  label.mt-lab {
+    margin-top: 20px;
+  }
+}
